@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Click on Problem"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textSize="28sp"/>
+    <Button
+        android:id="@+id/button_problem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Problem"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:id="@+id/button_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_margin="5dp"
+        android:text="Answer"
+        />
+
+</LinearLayout>
